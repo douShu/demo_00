@@ -1,6 +1,6 @@
 //
-//  demo_00Tests.m
-//  demo-00Tests
+//  demo00Tests.m
+//  demo00Tests
 //
 //  Created by 逗叔 on 15/8/26.
 //  Copyright (c) 2015年 逗叔. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface demo_00Tests : XCTestCase
+@interface demo00Tests : XCTestCase
 
 @end
 
-@implementation demo_00Tests
+@implementation demo00Tests
 
 - (void)setUp {
     [super setUp];
