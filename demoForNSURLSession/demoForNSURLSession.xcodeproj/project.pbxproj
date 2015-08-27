@@ -14,6 +14,7 @@
 		DB6B5A771B8F27020055943D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5A761B8F27020055943D /* Images.xcassets */; };
 		DB6B5A7A1B8F27020055943D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6B5A781B8F27020055943D /* LaunchScreen.xib */; };
 		DB6B5A861B8F27020055943D /* demoForNSURLSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B5A851B8F27020055943D /* demoForNSURLSessionTests.m */; };
+		DBA623761B8F5331002F6D06 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA623751B8F5331002F6D06 /* NSString+Hash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DB6B5A7F1B8F27020055943D /* demoForNSURLSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoForNSURLSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6B5A841B8F27020055943D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB6B5A851B8F27020055943D /* demoForNSURLSessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoForNSURLSessionTests.m; sourceTree = "<group>"; };
+		DBA623741B8F5331002F6D06 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		DBA623751B8F5331002F6D06 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		DB6B5A681B8F27020055943D /* demoForNSURLSession */ = {
 			isa = PBXGroup;
 			children = (
+				DBA623731B8F5331002F6D06 /* 5-哈希函数 */,
 				DB6B5A6D1B8F27020055943D /* AppDelegate.h */,
 				DB6B5A6E1B8F27020055943D /* AppDelegate.m */,
 				DB6B5A701B8F27020055943D /* ViewController.h */,
@@ -117,6 +121,15 @@
 				DB6B5A841B8F27020055943D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBA623731B8F5331002F6D06 /* 5-哈希函数 */ = {
+			isa = PBXGroup;
+			children = (
+				DBA623741B8F5331002F6D06 /* NSString+Hash.h */,
+				DBA623751B8F5331002F6D06 /* NSString+Hash.m */,
+			);
+			path = "5-哈希函数";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6B5A721B8F27020055943D /* ViewController.m in Sources */,
+				DBA623761B8F5331002F6D06 /* NSString+Hash.m in Sources */,
 				DB6B5A6F1B8F27020055943D /* AppDelegate.m in Sources */,
 				DB6B5A6C1B8F27020055943D /* main.m in Sources */,
 			);
@@ -416,6 +430,7 @@
 				DB6B5A8B1B8F27020055943D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB6B5A8C1B8F27020055943D /* Build configuration list for PBXNativeTarget "demoForNSURLSessionTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				DB6B5A8E1B8F27020055943D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
